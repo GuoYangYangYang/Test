@@ -44,3 +44,52 @@ if n > 1000000:
         400000 * 1.015 + \
         (n - 1000000) * 1.01
 print(s - n)
+
+# 方法二
+
+i = n
+arr = [1000000, 600000, 400000, 200000, 100000, 0]
+rat = [0.01, 0.015, 0.03, 0.05, 0.075, 0.1]
+r = 0
+for idx in range(0, 6):
+    if i > arr[idx]:
+        r += (i - arr[idx]) * rat[idx]
+        # print ((i - arr[idx]) * rat[idx])
+        i = arr[idx]
+print(r)
+
+# 方法三
+
+Bonus = 0
+BonusRateList = [[100, 0.010],
+                 [60, 0.015],
+                 [40, 0.030],
+                 [20, 0.050],
+                 [10, 0.075],
+                 [0, 0.100]]
+Profit = n
+Profit /= 10000
+
+for i in range(0, len(BonusRateList)):
+    if Profit > BonusRateList[i][0]:
+        Bonus += (Profit - BonusRateList[i][0]) * BonusRateList[i][1]
+        Profit = BonusRateList[i][0]
+print(Bonus * 10000)
+
+# 方法四
+# 创建生成器
+a = [100, 60, 40, 20, 10, 0]
+b = [0.01, 0.015, 0.03, 0.05, 0.075, 0.1]
+n /= 10000
+
+def f(x):
+    for i in range(len(a)):
+        if n > a[i]:
+            c = (a[j] - a[j + 1] for j in range(i, len(a) - 1))
+            break
+    r = sum(map(lambda x, y: x * y, b[i:], [(n - a[i])] + list(c)))
+    yield r * 10000
+
+print(next(f(n)))
+
+
