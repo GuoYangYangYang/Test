@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28788479-c69e-407f-b0a0-1d85452bc27c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/PythonTest010.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonTest011.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,11 +50,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PythonTest010.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PythonTest010.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonTest010.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="327">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PythonTest011.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PythonTest011.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="152" column="33" selection-start-line="152" selection-start-column="33" selection-end-line="152" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -84,6 +94,7 @@
         <option value="$PROJECT_DIR$/PythonTest008.py" />
         <option value="$PROJECT_DIR$/PythonTest009.py" />
         <option value="$PROJECT_DIR$/PythonTest010.py" />
+        <option value="$PROJECT_DIR$/PythonTest011.py" />
       </list>
     </option>
   </component>
@@ -126,25 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PythonTest010">
-    <configuration name="PythonTest006" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTest006.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.PythonTest011">
     <configuration name="PythonTest007" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -217,20 +210,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="PythonTest011" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonTest011.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.PythonTest006" />
       <item itemvalue="Python.PythonTest007" />
       <item itemvalue="Python.PythonTest008" />
       <item itemvalue="Python.PythonTest009" />
       <item itemvalue="Python.PythonTest010" />
+      <item itemvalue="Python.PythonTest011" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PythonTest011" />
         <item itemvalue="Python.PythonTest010" />
         <item itemvalue="Python.PythonTest009" />
         <item itemvalue="Python.PythonTest008" />
         <item itemvalue="Python.PythonTest007" />
-        <item itemvalue="Python.PythonTest006" />
       </list>
     </recent_temporary>
   </component>
@@ -416,8 +427,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonTest010.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="327">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonTest011.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="152" column="33" selection-start-line="152" selection-start-column="33" selection-end-line="152" selection-end-column="33" />
         </state>
       </provider>
     </entry>
