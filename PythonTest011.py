@@ -139,13 +139,16 @@ print(rabbit9(18))
 
 all_rabbit = []
 
+
 class Rabbit():
     def __init__(self, birthday):
         self.birthday = birthday
         all_rabbit.append(self)
+
     def makechild(self, month):
         if month - self.birthday >= 2:
             Rabbit(month)
+
 
 Rabbit(1)
 for i in range(1, 22):
