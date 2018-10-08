@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="28788479-c69e-407f-b0a0-1d85452bc27c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloGit.py" beforeDir="false" afterPath="$PROJECT_DIR$/HelloGit.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PythonTest009.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonTest009.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PythonTest010.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonTest010.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/PythonTest017.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+              <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -97,8 +89,8 @@
       <file leaf-file-name="HelloGit.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HelloGit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            <state relative-caret-position="418">
+              <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -118,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HelloGit.py" />
         <option value="$PROJECT_DIR$/PythonTest001.py" />
         <option value="$PROJECT_DIR$/PythonTest002.py" />
         <option value="$PROJECT_DIR$/PythonTest003.py" />
@@ -136,11 +127,13 @@
         <option value="$PROJECT_DIR$/PythonTest015.py" />
         <option value="$PROJECT_DIR$/PythonTest016.py" />
         <option value="$PROJECT_DIR$/PythonTest017.py" />
+        <option value="$PROJECT_DIR$/HelloGit.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="793" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="706" />
+    <option name="y" value="173" />
     <option name="width" value="798" />
     <option name="height" value="867" />
   </component>
@@ -151,7 +144,7 @@
     <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -165,7 +158,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PythonTest017">
+  <component name="RunManager" selected="Python.HelloGit">
+    <configuration name="HelloGit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HelloGit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="PythonTest013" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,7 +249,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="PythonTest017" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="PythonTest017" type="PythonConfigurationType" factoryName="Python">
       <module name="Test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,15 +268,16 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
+      <item itemvalue="Python.PythonTest017" />
       <item itemvalue="Python.PythonTest013" />
       <item itemvalue="Python.PythonTest014" />
       <item itemvalue="Python.PythonTest015" />
       <item itemvalue="Python.PythonTest016" />
-      <item itemvalue="Python.PythonTest017" />
+      <item itemvalue="Python.HelloGit" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.PythonTest017" />
+        <item itemvalue="Python.HelloGit" />
         <item itemvalue="Python.PythonTest016" />
         <item itemvalue="Python.PythonTest015" />
         <item itemvalue="Python.PythonTest014" />
@@ -287,14 +299,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24937344" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.33288947" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3263158" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3263158" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -312,13 +324,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PythonTest015.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonTest016.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -658,14 +663,21 @@
     <entry file="file://$PROJECT_DIR$/PythonTest017.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_monkey.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="621" selection-start-line="621" selection-end-line="621" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HelloGit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="418">
+          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
         </state>
       </provider>
     </entry>
